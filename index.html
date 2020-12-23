@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    div {
+      padding: 10px;
+      text-align: center;
+    }
+
+    b {
+      font-family: sans-serif;
+    }
+
+    #primary {
+      z-index: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+
+#sectl {
+  z-index: 1;
+  position: absolute;
+  width: 400px;
+  height: 320px;
+  top: 10px;
+  left: 10px;
+}
+
+#secbl {
+  z-index: 1;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 400px;
+  height: 320px;
+}
+
+#sectr {
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 400px;
+  height: 320px;
+}
+
+#secbr {
+  z-index: 1;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 400px;
+  height: 320px;
+}
+
+    #sta1 {
+      position: absolute;
+      z-index: 8;
+      font-size: 100px;
+      opacity: 0.5;
+      border: 1px dashed #996;
+      background-color: #ffffff;
+      margin: 100px 200px 400px 500px;
+    }
+
+.myvideo {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+<div id="primary">
+  <video class="myvideo" autoplay loop muted>
+        <source src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div id="sectl">
+  <video secondary class="myvideo" autoplay loop muted>
+        <source src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div id="secbl">
+  <video secondary class="myvideo" autoplay loop muted>
+        <source src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div id="sectr">
+  <video secondary class="myvideo" autoplay loop muted>
+        <source src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div id="secbr">
+  <video secondary class="myvideo" autoplay loop muted>
+        <source src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div id="sta1">
+  <b>Merry Chrismas & Happy New year from Vizio!</b>
+</div>
+</body>
+</html>
+
+
